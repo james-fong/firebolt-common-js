@@ -1,0 +1,27 @@
+{
+  "name": "firebolt-common-js",
+  "version": "1.0.0",
+  "description": "An unsupported example illustrating convertion of an ES6 library into a CommonJS library.",
+  "main": "lib/firebolt.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r ./lib && mkdir ./lib",
+    "build": "npm run clean && babel node_modules/@firebolt-js/sdk/dist/lib/ --out-dir lib"
+  },
+  "author": {
+    "name": "Jeremy LaCivita",
+    "email": "jeremy.lacivita@comcast.com",
+    "url": "https://github.com/jlacivita"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@firebolt-js/sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-plugin-module-extension": "^0.1.3"
+  }
+}
