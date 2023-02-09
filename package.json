@@ -16,7 +16,7 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "@firebolt-js/sdk": "^0.7.0"
+    "@firebolt-js/sdk": "^0.9.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
